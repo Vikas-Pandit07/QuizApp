@@ -7,13 +7,9 @@
     <link rel="stylesheet" href="sytle.css">
 </head>
 <body>
-    <div class="container">
-    <div class="outerheader">
-    <div class="header">
-        <h1>Welcome to Quizz WORLD!</h1>
-    </div>
-</div>
+    <div class="header"><header><h1>Welcome to Quizz WORLD!</h1></header></div>
 <hr>
+
     <div id="tabs">
     <a href="java.html"><button  id="btn">Java Quiz</button></a>
     <a href="apptitude.html"><button  id="btn">Aptitude Quiz</button></a>
@@ -22,31 +18,34 @@
     <a href="database.html"><button  id="btn">Database Quiz</button></a>
 </div>
    <hr>
+
 <div id="regform">
+
     <form action="">
-   <h3>Registration From</h3>
+
+   <h3>Registration Form</h3>
+
    <label for="name">Name:</label>
    <input type="text" id="name" name="name"
-   placeholder="Enter your name" 
-   pattern="^[a-zA-Z]+[a-zA-z][a-zA-Z]$"
-   required><br><br>
+   placeholder="Enter your name"><br><br>
    
    <label for="email">Email:</label>
    <input type="email" id="email" name="email"
-   placeholder="Enter your email"
-   pattern="^[a-zA-z0-9*,%+-]+@[a-zA-z\d,-]+\.[a-zA-Z]{2,}$"
+   placeholder="Enter your email"                     pattern="^[a-zA-z\d*,%+-]+@[a-zA-z\d,-]+\.[a-zA-Z]{2,}$"
    required>
    <br><br>
 
    <label for="password">Password:</label>
    <input type="password" id="password" name="password"
-   placeholder="Enter your password"
-   pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@!#$%&*?])[A-Za-z\d@%$!*?&$]{8,}$"
+   placeholder="Enter your password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@!#$%&*?])[A-Za-z\d@%$!*?&$]{8,}$"
    title="Use secure pass wih Uppercase, lowercase, special symbol and numbers.."
    required>
 <br><br>
+
    <button type="submit" id="regbtn">Submit</button>
+
 </form>
+
 </div>
 
 <a href="home.html"><button id="btn">Home</button></a>
