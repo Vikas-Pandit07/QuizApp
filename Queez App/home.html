@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="sytle.css">
 </head>
 <body>
-    <div class="header"><header><h1>Welcome to Quizz WORLD!</h1></header></div>
+    <div class="container">
+    <div class="outerheader">
+    <div class="header">
+        <h1>Welcome to Quizz WORLD!</h1>
+    </div>
+</div>
 <hr>
     <div id="tabs">
     <a href="java.html"><button  id="btn">Java Quiz</button></a>
@@ -22,7 +27,9 @@
    <h3>Registration From</h3>
    <label for="name">Name:</label>
    <input type="text" id="name" name="name"
-   placeholder="Enter your name"><br><br>
+   placeholder="Enter your name" 
+   pattern="^[a-zA-Z]+[a-zA-z][a-zA-Z]$"
+   required><br><br>
    
    <label for="email">Email:</label>
    <input type="email" id="email" name="email"
@@ -42,6 +49,84 @@
 </form>
 </div>
 
+<a href="home.html"><button id="btn">Home</button></a>
+<a href="apptitude.html"><button id="btn">Aptitude Quiz</button></a>
+<a href="python.html"><button id="btn">Python Quiz</button></a>
+<a href="frontend.html"><button id="btn">Front-End Quiz</button></a>
+<a href="database.html"><button id="btn">Database Quiz</button></a>
 
+<div id="questions">
+    
+    
+    <div class="queset">
+    <p>What is java and its benefits?</p>
+    <label for="option"></label>
+    <input type="radio" name="option">Option1 <br>
+    
+    <label for="option"></label>
+    <input type="radio" name="option">Option2 <br>
+    
+    <label for="option"></label>
+    <input type="radio" name="option">Option3 <br>
+    
+    <label for="option"></label>
+    <input type="radio" name="option">Option4 <br>
+
+    <p>What is java and its benefits?</p>
+    <label for="option1"></label>
+    <input type="radio" name="option1">Option1 <br>
+    
+    <label for="option1"></label>
+    <input type="radio" name="option1">Option2 <br>
+    
+    <label for="option1"></label>
+    <input type="radio" name="option1">Option3 <br>
+    
+    <label for="option1"></label>
+    <input type="radio" name="option1">Option4 <br>
+
+    <p>What is java and its benefits?</p>
+    <label for="option2"></label>
+    <input type="radio" name="option2">Option1 <br>
+    
+    <label for="option2"></label>
+    <input type="radio" name="option2">Option2 <br>
+    
+    <label for="option2"></label>
+    <input type="radio" name="option2">Option3 <br>
+    
+    <label for="option2"></label>
+    <input type="radio" name="option2">Option4 <br>
+
+    <p>What is java and its benefits?</p>
+    <label for="option3"></label>
+    <input type="radio" name="option3">Option1 <br>
+    
+    <label for="option3"></label>
+    <input type="radio" name="option3">Option2 <br>
+    
+    <label for="option3"></label>
+    <input type="radio" name="option3">Option3 <br>
+    
+    <label for="option3"></label>
+    <input type="radio" name="option3">Option4 <br>
+
+    <p>What is java and its benefits?</p>
+    <label for="option4"></label>
+    <input type="radio" name="option4">Option1 <br>
+    
+    <label for="option4"></label>
+    <input type="radio" name="option4">Option2 <br>
+    
+    <label for="option4"></label>
+    <input type="radio" name="option4">Option3 <br>
+    
+    <label for="option4"></label>
+    <input type="radio" name="option4">Option4 <br>
+</div>
+</div><br>
+
+     <button type="submit" id="submitbtn">Submit</button>
+     </div>
 </body>
 </html>
