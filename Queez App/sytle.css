@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(247, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 25px;
+    background-color: rgb(2, 94, 63);
+    color: whitesmoke;
+    text-align: center;
+ 
+    margin: 20px auto;
+}
+#tabs {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn:hover {
+    background-color: rgb(60, 67, 70);
+    color: white;
+    text-decoration: underline;
+}
+#btn:focus {
+    outline: none;
+    border-color: rgb(243, 196, 68);
+}
+#btn {
+    padding: 8px 8px;
+    font-size: 12px;
+    border-width: 4px;
+    border-color: rgb(248, 176, 89);
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#submitbtn {
+    background-color: white;
+    color: black;
+    border-radius:7px;
+    font-size: 14px;
+    font-weight: 1000;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+#submitbtn:hover {
+    background-color: rgb(10, 10, 10);
+    color: rgb(250, 244, 244);
+}
+#submitbtn:focus {
+    outline: none;
+    border-color: rgb(192, 194, 228);
+}
+
+#regform {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    width: 50px;
+}
+label {
+    font-size: 15px;
+}
+input {
+    padding: 8px;
+    border: 2px solid rgb(155, 148, 148);
+}
+input:focus {
+    background-color: lightgreen;
+}
+#regbtn {
+    background-color: rgb(247, 237, 225);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+}
+#regbtn:focus {
+    background-color: rgb(77, 155, 155);
+    color: rgb(7, 7, 7);
+}
+#regbtn:hover {
+    background-color: rgb(53, 56, 56);
+    color: white;
+}
