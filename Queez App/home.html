@@ -7,15 +7,21 @@
     <link rel="stylesheet" href="sytle.css">
 </head>
 <body>
-    <div class="header"><header><h1>Welcome to Quizz WORLD!</h1></header></div>
+    <div class="container">
+    <div class="outerheader">
+    <div class="header">
+        <h1>Welcome to Quizz WORLD!</h1>
+    </div>
+</div>
+
 <hr>
 
+    <div id="tabs">
     <a href="java.html"><button  id="btn">Java Quiz</button></a>
     <a href="apptitude.html"><button  id="btn">Aptitude Quiz</button></a>
     <a href="python.html"><button  id="btn">Python Quiz</button></a>
     <a href="frontend.html"><button  id="btn">Front-End Quiz</button></a>
-    <a href="database.html"><button  id="btn">Database Quiz</button></a>   <div id="tabs">
- 
+    <a href="database.html"><button  id="btn">Database Quiz</button></a>
 </div>
    <hr>
 
@@ -27,11 +33,15 @@
 
    <label for="name">Name:</label>
    <input type="text" id="name" name="name"
-   placeholder="Enter your name"><br><br>
+   placeholder="Enter your name" 
+   pattern="^[a-zA-Z]+[a-zA-z][a-zA-Z]$"
+   required><br><br>
+
    
    <label for="email">Email:</label>
    <input type="email" id="email" name="email"
-   placeholder="Enter your email"                     pattern="^[a-zA-z\d*,%+-]+@[a-zA-z\d,-]+\.[a-zA-Z]{2,}$"
+   placeholder="Enter your email"                     
+   pattern="^[a-zA-z\d*,%+-]+@[a-zA-z\d,-]+\.[a-zA-Z]{2,}$"
    required>
    <br><br>
 
@@ -40,7 +50,7 @@
    placeholder="Enter your password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@!#$%&*?])[A-Za-z\d@%$!*?&$]{8,}$"
    title="Use secure pass wih Uppercase, lowercase, special symbol and numbers.."
    required>
-<br><br>
+    <br><br>
 
    <button type="submit" id="regbtn">Submit</button>
 
