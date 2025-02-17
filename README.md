@@ -12,4 +12,4 @@ Choose the Quiz difficulty
 
 Different tech stacks
 
-score
+containers with different modules
